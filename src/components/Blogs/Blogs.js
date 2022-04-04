@@ -9,7 +9,7 @@ const Blogs = () => {
                 <div className='col-lg-7'>
                     <div className='question-1 my-5'>
                         <h3>What is contex api? how is use</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis repellendus quasi iusto quam vitae veniam nostrum quae, labore a dolorum molestias, provident odit error? Libero voluptatum asperiores ea consequuntur at.</p>
+                        <p></p>
                     </div>
                 </div>
                 <div className='col-lg-5'>
