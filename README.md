@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Bags pack store
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [bags pack](https://fancy-faloodeh-484cfc.netlify.app/).
 
 ## Available Scripts
 
