@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <div className='container py-5'>
             <div className='row'>
-                <div className='col col-sm'>
+                <div className='col-lg-6 col-sm'>
                     <div className='heading-section'>
                         <h1 className='fw-bold'>Perfect <br /> 
                         for travelling
@@ -14,7 +14,7 @@ const Home = () => {
                         <button type="button" className="btn btn-secondary">Shop Now</button>
                     </div>
                 </div>
-                <div className='col col-sm'>
+                <div className='col-lg-6 col-sm'>
                     <div className='site-image '>
                         <img className='img-fluid' src="bag1.jpg" alt="" />
                     </div>

@@ -1,6 +1,6 @@
 # Bags pack store
 
-This project was bootstrapped with [bags pack](https://fancy-faloodeh-484cfc.netlify.app/).
+This project is live site  [bags pack](https://fancy-faloodeh-484cfc.netlify.app/).
 
 ## Available Scripts
 
