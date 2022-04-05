@@ -12,14 +12,26 @@ const Home = () => {
                         <h1 className='fw-bold'>Perfect <br /> 
                         for travelling
                         </h1>
-                        <p>You'll love how smoothly it glides along the ground with the swivel wheels.</p>
+                        <p>You'll love how smoothly it glides along the ground with the swivel wheels. Travel safely using the products of our bags pack. School bags college, university, bags etc.</p>
                         <button type="button" className="btn btn-secondary">Shop Now</button>
                     </div>
                 </div>
                 <div className='col-lg-6 col-sm'>
-                    <div className='site-image '>
-                        <img className='img-fluid' src="bag1.jpg" alt="" />
+                    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img className='img-fluid d-block w-100' src="bag1.jpg" alt="" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img className='img-fluid d-block w-100' src="bag2.jpg" alt="" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img className='img-fluid d-block w-100' src="bag3.jpg" alt="" />
+                                </div>
+                            </div>
                     </div>
+
+                   
                 </div>
             </div>
             <div className='review my-5 text-center'>
