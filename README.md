@@ -4,8 +4,16 @@ This project is live site  [bags pack](https://fancy-faloodeh-484cfc.netlify.app
 
 ## The site work process
  `<ul>
-    <li> use router install <li>
-    <li> header section ready</li>
+
+    <li> step: 1 - Router install </li>
+    <li> step: 2 - header section ready</li>
+    <li> step: 3 - Navigation site already done</li>
+    <li> step: 4 - Home page ready</li>
+    <li> step: 5 - Review page setup</li>
+    <li> step: 6 - Dashboard setup with charts add</li>
+    <li> step: 7 - Blog page ready & Question Answer part done</li>
+
+
  </ul>`
 
 ## Available Scripts
