@@ -8,29 +8,24 @@ const Dashboard = () => {
         <div>
             <section className='container'>
                 <div className='row'>
-                    <div className='col-lg-6'>
+                    <div className='col-lg-6 col-10'>
                         <div className='chart my-5'>
                             <DashLineChart></DashLineChart>
                         </div>
                         
                     </div>
-                    <div className='col-lg-6'>
+                    <div className='col-lg-6 col-10'>
                         <div className='mypiechart my-5'>
                             <MyPieChart></MyPieChart>
                         </div>
                     </div>
                 </div>
                 <div className='row'>
-                    <div className='col-lg-6'>
+                    <div className='col-lg-6 col-10'>
                         <div className='chart my-5'>
                              <LineBarChart></LineBarChart>
                         </div>
                         
-                    </div>
-                    <div className='col-lg-6'>
-                        <div className='mypiechart my-5'>
-                            
-                        </div>
                     </div>
                 </div>
 

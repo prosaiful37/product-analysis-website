@@ -2,6 +2,12 @@
 
 This project is live site  [bags pack](https://fancy-faloodeh-484cfc.netlify.app/).
 
+## The site work process
+ `<ul>
+    <li> use router install <li>
+    <li> header section ready</li>
+ </ul>`
+
 ## Available Scripts
 
 In the project directory, you can run:
