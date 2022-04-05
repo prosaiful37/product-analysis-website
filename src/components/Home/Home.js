@@ -1,9 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import useReview from '../Hooks/useReview';
+import Reviews from '../productReview/Reviews';
 import Review from '../Review/Review';
 import './Home.css';
 
 const Home = () => {
+    const [reviews, setReviews] = useReview();
     return (
         <div className='container py-5'>
             <div className='row'>
@@ -17,7 +20,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className='col-lg-6 col-sm'>
-                    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div id="carouselExampleControlsNoTouching" className="carousel slide" data-bs-touch="false" data-bs-interval="false">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                     <img className='img-fluid d-block w-100' src="bag1.jpg" alt="" />
@@ -37,7 +40,9 @@ const Home = () => {
             <div className='review my-5 text-center'>
                 <h1 className='my-5'>Customer Review</h1>
                    
-                    <Review></Review>
+                {
+                    reviews.slice(0, 3).map(review => <Reviews key={review.id} review={review}></Reviews>)
+                }
 
                  <Link to="/review">
                     <button type="button" className="btn btn-secondary btn-lg">See All Reviews</button>
