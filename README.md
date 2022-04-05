@@ -5,13 +5,13 @@ This project is live site  [bags pack](https://fancy-faloodeh-484cfc.netlify.app
 ## The site work process
  `<ul>
 
-    `<li>Router install </li>`
-    `<li>Header section ready</li>`
-    `<li>Navigation site already done</li>`
-   ` <li>Home page ready</li>`
-    `<li>Review page setup</li>`
-    `<li>Dashboard setup with charts add</li>`
-    `<li>Blog page ready & Question Answer part done</li>`
+    <li>Router install </li>
+    <li>Header section ready</li>
+    <li>Navigation site already done</li>
+    <li>Home page ready</li>
+    <li>Review page setup</li>
+    <li>Dashboard setup with charts add</li>
+    <li>Blog page ready & Question Answer part done</li>
 
 
  </ul>`
